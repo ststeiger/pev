@@ -29,19 +29,19 @@ npm start build.prod
 ```
 
 
-
+```
 EXPLAIN (ANALYZE, COSTS, VERBOSE, BUFFERS, FORMAT JSON)
 SELECT com_id, com_text
   FROM public.t_comments
   LEFT JOIN t_comments_closure ON com_id = ancestor;
+```
 
 
+http://tatiyants.com/postgres-query-plan-visualization/<br />
+https://github.com/AlexTatiyants/pev<br />
 
--- http://tatiyants.com/postgres-query-plan-visualization/
--- https://github.com/AlexTatiyants/pev
+https://stackoverflow.com/questions/32624414/text-size-limitation-in-pgadmin-query<br />
+http://tatiyants.com/pev/#/plans/new<br />
+http://tatiyants.com/pev/#/about<br />
 
--- https://stackoverflow.com/questions/32624414/text-size-limitation-in-pgadmin-query
--- http://tatiyants.com/pev/#/plans/new
--- http://tatiyants.com/pev/#/about
-
--- https://explain.depesz.com/
+https://explain.depesz.com/<br />
